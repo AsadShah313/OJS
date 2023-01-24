@@ -1,0 +1,166 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins';
+}
+
+.navbar .nav-item a{
+    color: black;
+    margin: 5px;
+}
+
+.navbar .nav-item a:hover{
+    color: #ffd662ff;
+}
+
+#home{
+    background: url(images/main.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.button3{
+    padding: 10px 20px;
+    color: white;
+    background-color: #ffd662ff;
+    border: none;
+    border-radius: 10px;
+}
+
+.cto .content{
+    background: #00539cff;
+    padding: 30px;
+    color: white;
+    border-radius: 4px;
+    height: 400px;
+}
+
+.cto .content .more-button {
+    display: inline-block;
+    background: #ffd662ff;
+    padding: 6px 30px 8px 30px;
+    color: white;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+    text-decoration: none;
+}
+
+.cto .icon-boxes .icon-box{
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 40px 30px;
+    width: 100%;
+}
+
+.cto .icon-boxes .icon-box:hover{
+    background-color: #00539cff;
+    color: white;
+}
+
+.slideimg{
+   height: 100px;
+   width: 160px;
+}
+
+.journal .fa-solid{
+    margin-right: 7px;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.card-body:hover{
+    background-color: #00539cff;
+    color: white;
+}
+
+.box-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.counter{
+    padding: 30px;
+}
+
+.counter .counters span {
+    font-size: 48px;
+    display: block;
+    color: white;
+    font-weight: 700;
+}
+
+.counter .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #d5e1ed;
+    padding: 30px 20px;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all 0.5s;
+}
+
+.services .icon-box:hover{
+    background-color: #00539cff;
+    color: white;
+}
+
+.services .icon-boxes .icon::before{
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: #badaf7;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+    
+}
+
+.services .icon-box .icon i {
+    font-size: 68px;
+    color: #ffd662ff;
+}
+
+.services .icon-box .icon i:hover{
+    color: white;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #00539cff;
+    color: white;
+}
+
+.bookbutton{
+    padding: 5px 10px;
+}
+
+.footer .link-secondary{
+    color: white;
+}
+
+
+
